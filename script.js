@@ -14,6 +14,10 @@ $(document).ready(function() {
     // create a for loop for hour blocks
     function hourUpdate() {
         var currentHour = moment().hours();
+
+        $(".time-block").each(function() {
+            
+        })
     }
     // find a way to display current day
     $("#current-day").text(moment().format("ddd, MMMM Do, YYYY"));
